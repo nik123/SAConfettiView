@@ -47,6 +47,11 @@ public class SAConfettiView: UIView {
     }
 
     public func startConfetti() {
+        if isActive() {
+            // Already active
+            return
+        }
+
         emitter = CAEmitterLayer()
 
         emitter.emitterPosition = CGPoint(x: frame.size.width / 2.0, y: 0)

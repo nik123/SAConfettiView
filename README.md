@@ -2,7 +2,6 @@
 
 ![language](https://img.shields.io/badge/Language-%20Swift%20-orange.svg)
 ![CI Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
-[![Version](https://img.shields.io/cocoapods/v/SAConfettiView.svg?style=flat)](http://cocoapods.org/pods/SAConfettiView)
 [![License](https://img.shields.io/cocoapods/l/SAConfettiView.svg?style=flat)](http://cocoapods.org/pods/SAConfettiView)
 [![Platform](https://img.shields.io/cocoapods/p/SAConfettiView.svg?style=flat)](http://cocoapods.org/pods/SAConfettiView)
 
@@ -14,19 +13,16 @@ It's raining confetti! SAConfettiView is the easiest way to add fun, multi-color
 
 ## Installation
 
-SAConfettiView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+HGRippleRadarView is available through [Carthage](https://github.com/Carthage/Carthage). To install
+it, simply add the following line to your Cartfile:
 
-```swift
-pod "SAConfettiView"
+```ruby
+github "nik123/SAConfettiView" "master"
 ```
 
-And then run:
-
-`$ pod install`
-
 #### Manual Installation
-To manually install SAConfettiView, simply add `SAConfettiView.swift` to your project.
+
+To manually install SAConfettiView, simply add `SAConfettiView.swift` and png files to your project.
 
 ## Usage
 
@@ -88,10 +84,10 @@ confettiView.type = .Image(UIImage(named: "smiley"))
 
 ### Colors
 
-Set the colors of the confetti with the `.colors` property. This property has a default value of multiple colors. 
+Set the colors of the confetti with the `.colors` property. This property has a default value of multiple colors.
 
 ``` swift
-confettiView.colors = [UIColor.redColor(), UIColor.greenColor(), UIColor.blueColor()]
+confettiView.colors = [UIColor.red, UIColor.green, UIColor.blue]
 ```
 
 ### Intensity

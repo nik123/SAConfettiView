@@ -11,9 +11,11 @@
 
 It's raining confetti! SAConfettiView is the easiest way to add fun, multi-colored confetti to your application and make users feel rewarded. Written in Swift, SAConfettiView is a subclass of UIView and is highly customizable. From various types and colors of confetti to different levels of intensity, you can make the confetti as fancy as you want.
 
+This repository is forked version of [SAConfettiView](https://github.com/asowers1/SAConfettiView) with Swift 4 and [Carthage](https://github.com/Carthage/Carthage) support.
+
 ## Installation
 
-HGRippleRadarView is available through [Carthage](https://github.com/Carthage/Carthage). To install
+SAConfettiView is available through [Carthage](https://github.com/Carthage/Carthage). To install
 it, simply add the following line to your Cartfile:
 
 ```ruby

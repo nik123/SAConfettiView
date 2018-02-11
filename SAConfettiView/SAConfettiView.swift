@@ -85,9 +85,8 @@ public class SAConfettiView: UIView {
             return customImage
         }
 
-        let path = Bundle(for: SAConfettiView.self).path(forResource: "SAConfettiView", ofType: "bundle")
-        let bundle = Bundle(path: path!)
-        let imagePath = bundle?.path(forResource: fileName, ofType: "png")
+        let bundle = Bundle(for: SAConfettiView.self)
+        let imagePath = bundle.path(forResource: fileName, ofType: "png")
         let url = URL(fileURLWithPath: imagePath!)
         do {
             let data = try Data(contentsOf: url)
